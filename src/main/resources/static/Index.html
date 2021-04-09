@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -16,7 +16,21 @@
         <button>members</button>
     </a>
 
-    <h2><b>Whats your name</b></h2>
+<!--    <h2><b>Whats your name</b></h2><br>
+
+    <form action="#" th:action="@{/saveUserName}"  method="POST">
+        <input name="user" placeholder="enter your name" >
+
+
+            <button type="submit" >push</button>
+        <a href="/display">
+            <button>display</button>
+        </a>
+
+    </form>-->
+
+    <h2><b>Whats my name</b></h2><br>
+
     <a href="meNombre">
         <button>???</button>
     </a>
